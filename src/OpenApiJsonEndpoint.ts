@@ -20,8 +20,8 @@ export class OpenApiJsonEndpoint implements IHttpHandler {
 
     const content = JSON.parse(fs.readFileSync(resolve(args.template), 'utf8'));
     content.info.title = args.title || 'Swagger API';
-    content.schemes = [protocol.value || 'http'];
-    content.host = host.value || `localhost:${port.value}`;
+    content.schemes = [protocol];
+    content.host = `${host}:${port}`;
 
     this.openApiJsonContent = content;
   }
