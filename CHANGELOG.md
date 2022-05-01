@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/antwika/swagger/compare/v0.0.2...v0.0.3) (2022-05-01)
+
+
+### Bug Fixes
+
+* use distinct property names for swagger configuration ([16d22da](https://github.com/antwika/swagger/commit/16d22da5095d4f388c6f187b55b4bd1d4e97dcfb))
+
 ### [0.0.2](https://github.com/antwika/swagger/compare/v0.0.1...v0.0.2) (2022-05-01)
 
 
