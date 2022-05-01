@@ -5,9 +5,9 @@ export class SwaggerEndpoint implements IHttpHandler {
   private readonly openApiJsonUrl: string;
 
   constructor(appArguments: AppArguments) {
-    const protocol = appArguments.args.find((arg) => arg.longName === 'protocol')?.value || 'http';
-    const host = appArguments.args.find((arg) => arg.longName === 'host')?.value || 'localhost';
-    const port = appArguments.args.find((arg) => arg.longName === 'port')?.value || '3000';
+    const protocol = appArguments.args.find((arg) => arg.longName === 'swaggerProtocol')?.value || 'http';
+    const host = appArguments.args.find((arg) => arg.longName === 'swaggerHost')?.value || 'localhost';
+    const port = appArguments.args.find((arg) => arg.longName === 'swaggerPort')?.value || '3000';
 
     this.openApiJsonUrl = `${protocol}://${host}:${port}/api-docs/swagger.json`;
   }

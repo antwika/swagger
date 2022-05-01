@@ -14,20 +14,20 @@ describe('SwaggerEndpoint', () => {
     const appArguments: AppArguments = {
       args: [
         {
-          shortName: 'x',
-          longName: 'protocol',
+          shortName: 'sx',
+          longName: 'swaggerProtocol',
           description: 'A protocol',
           value: 'http',
         },
         {
-          shortName: 'h',
-          longName: 'host',
+          shortName: 'sh',
+          longName: 'swaggerHost',
           description: 'A host',
           value: 'localhost',
         },
         {
-          shortName: 'p',
-          longName: 'port',
+          shortName: 'sp',
+          longName: 'swaggerPort',
           description: 'A port',
           value: '3000',
         },

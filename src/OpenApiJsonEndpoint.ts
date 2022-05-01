@@ -14,9 +14,9 @@ export class OpenApiJsonEndpoint implements IHttpHandler {
   private openApiJsonContent: string;
 
   constructor(args: IOpenApiJsonEndpointArgs) {
-    const protocol = args.appArguments.args.find((arg) => arg.longName === 'protocol')?.value || 'http';
-    const host = args.appArguments.args.find((arg) => arg.longName === 'host')?.value || 'localhost';
-    const port = args.appArguments.args.find((arg) => arg.longName === 'port')?.value || '3000';
+    const protocol = args.appArguments.args.find((arg) => arg.longName === 'swaggerProtocol')?.value || 'http';
+    const host = args.appArguments.args.find((arg) => arg.longName === 'swaggerHost')?.value || 'localhost';
+    const port = args.appArguments.args.find((arg) => arg.longName === 'swaggerPort')?.value || '3000';
 
     const content = JSON.parse(fs.readFileSync(resolve(args.template), 'utf8'));
     content.info.title = args.title || 'Swagger API';
