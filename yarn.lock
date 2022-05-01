@@ -9,7 +9,7 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@antwika/app@^0.0.6":
+"@antwika/app@0.0.6", "@antwika/app@^0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.6.tgz#e775aed14900a2305835c21deb4c407ceec6a1e7"
   integrity sha512-PPmz9UVby+9eSdczfDaCX0yiUxX8U7+IPDLPb92zLs1nIe9uEsP2/5VQZ5Haidmv+EkQbNjR4LyJICngAqhdSQ==
@@ -23,11 +23,12 @@
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.7.tgz#dd3a0180dca4d1dc0a10b1c406dd2fbf42e9c3f5"
   integrity sha512-mDGwrD2oZvI9wAuWZkg2tgpeXA444xDawk/9Y5HNeD4U8TyEHmHYnDXiqLX9p4mhEil4fTFT33aVdKjJdJXonQ==
 
-"@antwika/http@0.0.6":
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.6.tgz#8a0b72b1e060475b47f20642001b812f42892ec5"
-  integrity sha512-uIKIAqKeeJWAzCIjV1aaXCg7Sv9yeAK3eccbvBS1/9Uu2yY5XR9ovYBlwoeJct6PPAy6PDbIfEEF8yWQTI+sgA==
+"@antwika/http@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.7.tgz#81b8d67af273466c219d7b6787a8900baf5fbc0c"
+  integrity sha512-DnE3mJkzhyxtaWy/mKIs/0qSOmSOCv+9cpXc/ED52yAny0zuRQ1eImY9Lk8CM6949ybeMXDvCRjfnW1//hLK5g==
   dependencies:
+    "@antwika/app" "0.0.6"
     "@antwika/common" "0.0.7"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7":
