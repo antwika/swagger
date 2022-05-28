@@ -9,7 +9,16 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@antwika/app@0.0.6", "@antwika/app@^0.0.6":
+"@antwika/app@0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.7.tgz#8c077471bd8df5f702035cf44439b8f371c1ebfc"
+  integrity sha512-VGKg0RF397ioo0hgkWykovhcr2KLbJcQ4jmUUpLm0jvcS1J4J54WDrTXiL/xljhh4lXSrFXbFzY62CEHcUAMOQ==
+  dependencies:
+    "@antwika/common" "0.0.9"
+    componentsjs "^5.0.1"
+    yargs "^17.4.1"
+
+"@antwika/app@^0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.6.tgz#e775aed14900a2305835c21deb4c407ceec6a1e7"
   integrity sha512-PPmz9UVby+9eSdczfDaCX0yiUxX8U7+IPDLPb92zLs1nIe9uEsP2/5VQZ5Haidmv+EkQbNjR4LyJICngAqhdSQ==
@@ -23,18 +32,18 @@
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.7.tgz#dd3a0180dca4d1dc0a10b1c406dd2fbf42e9c3f5"
   integrity sha512-mDGwrD2oZvI9wAuWZkg2tgpeXA444xDawk/9Y5HNeD4U8TyEHmHYnDXiqLX9p4mhEil4fTFT33aVdKjJdJXonQ==
 
-"@antwika/common@0.0.8":
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.8.tgz#280a50f31fb8b3d6639d8a4f9c5fe616eccce3b2"
-  integrity sha512-bqip4ziliimStFun5qbQEYq4apCKUT8ScXY3ULimAcrXt7vwUsCo1rbmihRwOUnABnVYZjxZv7Ke/lT705b7hA==
+"@antwika/common@0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.9.tgz#0c1662cf51a5fdfce961ed4a464015cf985d3b85"
+  integrity sha512-fpdQpAY1TuXYKXOgx2y6tCwzbHxAa5AWV57S2I2S7jf8/O7i71H4qabJCDe9Ttr2lHKf+QOLM6T9u5eNi1gn+A==
 
-"@antwika/http@0.0.10":
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.10.tgz#63c387f0371f924ae49c5787715ea6d65c0bc8b0"
-  integrity sha512-djcGCD7CFA6He+3i5j7puBwswVE8igezoMZHoQnzTQw2Mr/CNyE1+/xSn5Fmqp7lk3zWL1mWZP9qXit2NEALvw==
+"@antwika/http@0.0.11":
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.11.tgz#9a2144f4815c5800430fcb60f37f625df02872cf"
+  integrity sha512-PryP3x8flSispZAQQk491U4MXgdozP1+MEH9eUXaR+x26w43SnFyBjTniTdHckoVk1PwmkbrnRxMp7inN1ZUsA==
   dependencies:
-    "@antwika/app" "0.0.6"
-    "@antwika/common" "0.0.8"
+    "@antwika/app" "0.0.7"
+    "@antwika/common" "0.0.9"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7":
   version "7.16.7"
