@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/antwika/swagger/compare/v0.0.7...v0.0.8) (2022-06-30)
+
+
+### Features
+
+* release package every Thursday at 12:15 UTC ([2b3cb54](https://github.com/antwika/swagger/commit/2b3cb540be04cd6ebd92358e596bff186d24b55f))
+* script for typedoc generation ([c875f1a](https://github.com/antwika/swagger/commit/c875f1ad21c640101164599a29514ab33bf6b3c4))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @antwika/app to ^0.0.11 ([40e9c12](https://github.com/antwika/swagger/commit/40e9c122dcffd41608104fb701a7c5ff3c417ecd))
+* **deps:** update dependency @antwika/http to v0.0.14 ([344895e](https://github.com/antwika/swagger/commit/344895e4df91f39dc3fc4e1da89968f5f9416a44))
+
 ### [0.0.7](https://github.com/antwika/swagger/compare/v0.0.6...v0.0.7) (2022-06-26)
 
 
