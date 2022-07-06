@@ -9,16 +9,7 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@antwika/app@0.0.11":
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.11.tgz#9cbe0bb905af35d9f74690a94e5487a24410e7f2"
-  integrity sha512-ZXHFMJNLsUxbScB2j2Ggi1/U2NtVjC4hG8H2vonpnzD9esUPzM1SK64NiB9UECBRI7EtCecdol6sneLStR4L3Q==
-  dependencies:
-    "@antwika/common" "0.0.13"
-    componentsjs "^5.0.1"
-    yargs "^17.4.1"
-
-"@antwika/app@^0.0.12":
+"@antwika/app@0.0.12", "@antwika/app@^0.0.12":
   version "0.0.12"
   resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.12.tgz#01d943a244b2c45667bedc6982b9ae59741ed4a4"
   integrity sha512-o4KESUQzLYzoH1xhZh2UoQCLQOJBmRApFVHsDea6gI1+7lIrT5jrGHIVhucHOtcY7iL+/V6cbC7C6ATx2UINzQ==
@@ -27,23 +18,18 @@
     componentsjs "^5.0.1"
     yargs "^17.4.1"
 
-"@antwika/common@0.0.13":
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.13.tgz#354d5f6f7306ffd4fddda39f04b0219307d119e1"
-  integrity sha512-5h5uFAwj6lp0TPMMFYVqN/laDfKqg9zpskxJt+R9ryPz3acbk5h6ruSPwUDs3kM1xJJMQvHF4B2PQxtvCDy5aw==
-
 "@antwika/common@0.0.16":
   version "0.0.16"
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.16.tgz#9d074be45ac9b91f939f99f4de36b76fe3df3af5"
   integrity sha512-/QZk16/IEzo7zVqPV0VlTPTEHygLGG8vbGOKbWOGWkj8p0pdUFyha4s4LDvKdaG8jgQ3LRrA9Wsfv9JZGyrFPQ==
 
-"@antwika/http@0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.14.tgz#258e637b5019c92e4892925cecb53bc637f0b7f3"
-  integrity sha512-CdEQqB0pwUZ8qeCijqGFi0ZjmDIKJOHSUsNumUdb/WMFdO7RxuvAbog2r4ytq5tpiN3aGyXR3GN47a6u9Oul2g==
+"@antwika/http@0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.15.tgz#02c72c7aa463be7b04de6d19912b39884fc3f4ab"
+  integrity sha512-CGJxEf5Kvn7QKhUTunRMV2oiSKLYT8cAimYShJA8KQcXvr7v+JkCHg0fWCdIv1U3eWGDo8s/tj/xMp8DZCoIEQ==
   dependencies:
-    "@antwika/app" "0.0.11"
-    "@antwika/common" "0.0.13"
+    "@antwika/app" "0.0.12"
+    "@antwika/common" "0.0.16"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.12.13", "@babel/code-frame@^7.16.7":
   version "7.16.7"
