@@ -43,7 +43,7 @@
     "typescript": "4.9.4"
   },
   "dependencies": {
-    "@antwika/app": "^0.0.40",
+    "@antwika/app": "^0.0.41",
     "@antwika/http": "0.0.43"
   },
   "files": [
