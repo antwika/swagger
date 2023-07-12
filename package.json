@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "@antwika/app": "^0.0.65",
-    "@antwika/http": "0.0.67"
+    "@antwika/http": "0.0.68"
   },
   "files": [
     "bin",
