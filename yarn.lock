@@ -14,16 +14,7 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@antwika/app@0.0.75":
-  version "0.0.75"
-  resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.75.tgz#1d31074b18a6cbc9be91587e5282506f5532bf02"
-  integrity sha512-l2Li0sZ9mYbOV7M8leAOtnpEb1pF9LHb929Gne2m1W6UFZZCZHvvGiG6wwjR0Wdoro7PwzElTUsYwFJKXd3Z3Q==
-  dependencies:
-    "@antwika/common" "0.0.79"
-    componentsjs "^5.0.1"
-    yargs "^17.4.1"
-
-"@antwika/app@^0.0.76":
+"@antwika/app@0.0.76", "@antwika/app@^0.0.76":
   version "0.0.76"
   resolved "https://registry.yarnpkg.com/@antwika/app/-/app-0.0.76.tgz#c10770cb302eda1424925b0d41147626b85b63bb"
   integrity sha512-WnBtsLfOWFDQTRi6MF7gRpIpzQd5qw0pTq7k0JUSO2FY1dxqplOXEtHSAVEtpp4ullG1nv+liJgN7frwj6yDug==
@@ -32,23 +23,18 @@
     componentsjs "^5.0.1"
     yargs "^17.4.1"
 
-"@antwika/common@0.0.79":
-  version "0.0.79"
-  resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.79.tgz#14a4297762a0098318323fdcbd718a7709f24fda"
-  integrity sha512-laOFWaeASZtmdwMKWQoaZTM5HFZefmy17Wk+BaKnxx/l51R4m5h5CpHXhA8xUOb1OkdnWpVGIyP7bFpkVyA6bw==
-
 "@antwika/common@0.0.80":
   version "0.0.80"
   resolved "https://registry.yarnpkg.com/@antwika/common/-/common-0.0.80.tgz#2a3c7e20f5255831064aaf32024692cabf8a8385"
   integrity sha512-dHLooODYPAiYqSPwKcPzWdgy3X6qeD/aFGnhrdgTgF9xKkPrW1WjLknOdT4lKsUSk7KnpboxuUbDN7Q4qxNNBQ==
 
-"@antwika/http@0.0.78":
-  version "0.0.78"
-  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.78.tgz#ec094cee53d7e9584272fe66ca0e506122787bb8"
-  integrity sha512-VDC7bMC+wyxACDwn6IQamEd+wK7r7H8aJFCByBEskTkT5QQ5hv6+Kv/aQ1deHgI/9Q8igB1tYoTOBFIEgjVfNQ==
+"@antwika/http@0.0.79":
+  version "0.0.79"
+  resolved "https://registry.yarnpkg.com/@antwika/http/-/http-0.0.79.tgz#761c1855518ad056d2014d44e32f72b2a01372a3"
+  integrity sha512-3fv3SKUpBnsEAdxyE2iVcdknmASg+D6hyUaCB7SUso34Rop71e5FDBiNQgXBOT8r3jxolzGMqt3l2ktKOcHFHQ==
   dependencies:
-    "@antwika/app" "0.0.75"
-    "@antwika/common" "0.0.79"
+    "@antwika/app" "0.0.76"
+    "@antwika/common" "0.0.80"
 
 "@antwika/standard-version@0.1.66":
   version "0.1.66"
