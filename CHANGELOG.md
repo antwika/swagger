@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.0.128](https://github.com/antwika/swagger/compare/v0.0.127...v0.0.128) (2024-11-14)
+
 ## [0.0.127](https://github.com/antwika/swagger/compare/v0.0.126...v0.0.127) (2024-11-07)
 
 ## [0.0.126](https://github.com/antwika/swagger/compare/v0.0.125...v0.0.126) (2024-10-31)
